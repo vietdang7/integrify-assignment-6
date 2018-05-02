@@ -4,3 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* header */
+header {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+
+}
