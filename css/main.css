@@ -87,3 +87,10 @@ nav a {
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+/* What we do section */
+section h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 4em;
+  font-weight: lighter;
+
+}
