@@ -225,6 +225,7 @@ section h2 {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
 
+
 }
 .cs-title {
   justify-self: end;
@@ -243,4 +244,100 @@ section h2 {
 }
 .clients-says-button {
   margin-top: 40px;
+}
+/* get-in-touch section */
+.get-in-touch {
+  width: 100vw;
+  height: 600px;
+  background:linear-gradient(rgba(1, 1, 1, 0.8), rgba(1, 1, 1, 0.8) ), url(../img/tuchbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.get-in-touch-container {
+  width: 90vw;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+.get-in-touch-container h2, .get-in-touch-container p {
+  color: #fefefe;
+}
+.get-in-touch-container h2 {
+  margin-bottom: 80px;
+}
+.get-in-touch-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 40px;
+
+}
+.get-in-touch-add {
+  text-align: left;
+  justify-self: end;
+}
+.get-in-touch-add .fas {
+  padding-right: 20px;
+}
+.add-text {
+  margin-bottom: 30px;
+}
+.indent-text {
+  padding-left: 35px;
+}
+.social-icon .icon {
+  width: 25px;
+  height: 25px;
+  background: white;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 2px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.get-in-touch-form {
+  text-align: left;
+}
+.get-in-touch-form > * {
+  display: block;
+}
+.get-in-touch-form .white-button {
+  display: inline-block;
+}
+.get-in-touch-form input, textarea[name="your-message"] {
+  width: 80%;
+}
+input[name="name"], input[name="email"]  {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #646464;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+textarea[name="your-message"]{
+  border: none;
+  border-top: 1px solid #646464;
+  background: transparent;
+border-bottom: 1px solid #333333;
+}
+label {
+  color:#646464;
+  padding-bottom: 10px;
+}
+input[name="name"]::-webkit-input-placeholder , input[name="email"]::-webkit-input-placeholder {
+  font-size: 1.5em;
+}
+/* Footer */
+.footer-text {
+  text-align: center;
+  color: #aaa69b;
+  height: 7em;
+}
+.footer-text i, .footer-text a  {
+  color: #fecb96;
+  margin: 0 5px;
+}
+.footer-text a {
+  text-decoration: none;
+
 }
