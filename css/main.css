@@ -27,7 +27,7 @@ nav a {
 
 /* Slideshow */
 .slideshow {
-  padding: 10em;
+  padding: 6em;
   width: 90vw;
   height: 30em;
   margin: 40px auto;
@@ -62,7 +62,7 @@ nav a {
 .slideshow p {
   font-size: 1.5em;
 }
-.slideshow a {
+.black-button {
   display: inline-block;
   margin-top: 30px;
   text-decoration: none;
@@ -112,7 +112,61 @@ section h2 {
 .service h3 {
   font-family: 'Catamaran', sans-serif;
   font-size: 4em;
+
   }
+.service-content img {
+  margin-bottom: 20px;
+}
+.service-content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
 .service-img {
+  width: 100%;
+}
+.white-button {
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  background-color: white;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 1px solid lightgrey;
+}
+.right-content {
+  padding-left: 40px;
+}
+.left-content {
+  padding-right: 50px;
+}
+.img-1 {
+  grid-area: pic1;
+}
+.img-2 {
+  grid-area: pic2;
+}
+.img-3 {
+  grid-area: pic3;
+}
+.img-4 {
+  grid-area: pic4;
+}
+.img-5 {
+  grid-area: pic5;
+}
+.img-6 {
+  grid-area: pic6;
+}
+.our-best-work {
+  display: grid;
+  grid-template-areas:
+  "pic1 pic3 pic5"
+  "pic2 pic3 pic6"
+  "pic2 pic4 pic6" ;
+  grid-gap: 40px;
+}
+.our-best-work img {
   width: 100%;
 }
