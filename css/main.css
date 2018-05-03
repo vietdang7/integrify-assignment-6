@@ -109,6 +109,10 @@ section h2 {
 .service h5 {
   font-size: 1.8em;
 }
+.service h3 {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 4em;
+  }
 .service-img {
   width: 100%;
 }
