@@ -331,7 +331,7 @@ input[name="name"]::-webkit-input-placeholder , input[name="email"]::-webkit-inp
 .footer-text {
   text-align: center;
   color: #aaa69b;
-  height: 7em;
+  height: 5em;
 }
 .footer-text i, .footer-text a  {
   color: #fecb96;
