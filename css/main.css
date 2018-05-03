@@ -62,7 +62,7 @@ nav a {
 .slideshow p {
   font-size: 1.5em;
 }
-.black-button {
+.black-button, .black-button-bestwork {
   display: inline-block;
   margin-top: 30px;
   text-decoration: none;
@@ -159,12 +159,17 @@ section h2 {
 .img-6 {
   grid-area: pic6;
 }
+.black-button-bestwork {
+  grid-area: bestwork-button;
+  justify-self: center;
+}
 .our-best-work {
   display: grid;
   grid-template-areas:
   "pic1 pic3 pic5"
   "pic2 pic3 pic6"
-  "pic2 pic4 pic6" ;
+  "pic2 pic4 pic6"
+  ". bestwork-button .";
   grid-gap: 40px;
 }
 .our-best-work img {
