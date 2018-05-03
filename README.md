@@ -1,6 +1,6 @@
 # Integrify Sixth Assignment
 
-This is my fifth assignment of Integrify program.
+This is my sixth assignment of Integrify program.
 ![Final Result](https://github.com/vietdang7/integrify-assignment-6/blob/master/img/result_6.png)
 
 
