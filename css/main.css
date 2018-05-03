@@ -88,9 +88,27 @@ nav a {
     transform: rotate(45deg);
 }
 /* What we do section */
+section {
+  width: 90vw;
+  margin: 40px auto;
+}
 section h2 {
   font-family: 'Quicksand', sans-serif;
   font-size: 4em;
   font-weight: lighter;
+  text-align: center;
+  margin-bottom: 40px;
 
+}
+.service {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-gap: 40px;
+}
+.service h5 {
+  font-size: 1.8em;
+}
+.service-img {
+  width: 100%;
 }
